@@ -143,6 +143,23 @@ nav a{
     color:white;
 }
 
+/* TAMBAHKAN DISINI */
+
+.farmer-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.farmer-grid img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+/* BATAS TAMBAHAN */
+
 @media(max-width:768px){
 
     nav{
